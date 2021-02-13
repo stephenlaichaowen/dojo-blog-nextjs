@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"next dev\" \"json-server --watch data/db.json --port 8000\"",
     "build": "next build",
-    "start": "next start && json-server --watch data/db.json --port 8000",
+    "start": "concurrently \"next start\" \"json-server --watch data/db.json --port 8000\"",
     "push": "git add . && git commit -m 'commit' && git push origin main"
-
   },
   "dependencies": {
+    "concurrently": "^5.3.0",
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1"
