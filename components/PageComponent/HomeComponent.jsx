@@ -9,7 +9,7 @@ export default function HomeComponent() {
   return (
     <div className="home">
       { error && <div>{ error }</div> }
-      { isPending && <div>loadding...</div> }
+      { isPending && <div>loading...</div> }
       {/* { blogs && <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} handleEdit={handleEdit} /> } */}
       { blogs && <BlogList blogs={blogs} title="All Blogs" /> }
     </div>
