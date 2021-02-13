@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev && npx json-server --watch data/db.json --port 8000",
     "build": "next build",
-    "start": "next start && npx json-server --watch data/db.json --port 8000",
+    "start": "next start && json-server --watch data/db.json --port 8000",
     "push": "git add . && git commit -m 'commit' && git push origin main"
 
   },
