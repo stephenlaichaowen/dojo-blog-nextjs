@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start && npx json-server --watch data/",
     "push": "git add . && git commit -m 'commit' && git push origin main"
+
   },
   "dependencies": {
     "next": "10.0.6",
