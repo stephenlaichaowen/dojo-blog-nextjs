@@ -1,8 +1,3 @@
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-}
 .blogPreview {
   padding: 10px 16px;
   margin: 20px 0;
@@ -15,4 +10,7 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+.blogPreview a {
+  text-decoration: none;
 }

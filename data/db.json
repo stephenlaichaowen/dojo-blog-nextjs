@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "harry porter",
+      "body": "once upon a time...",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "terminator",
+      "body": "I will be back...",
+      "author": "yoshi",
+      "id": 2
+    },
+    {
+      "title": "JC-114",
+      "body": "標籤打印機",
+      "author": "mario",
+      "id": 3
+    },
+    {
+      "title": "My book",
+      "body": "hi, there !",
+      "author": "mario",
+      "id": 4
+    }
+  ]
+}
